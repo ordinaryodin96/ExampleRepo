@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BEDA0C82-B19B-4E38-A8EC-77347E0CBD68}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{BEDA0C82-B19B-4E38-A8EC-77347E0CBD68}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchContainer Name="Board" ID="{2FD538CC-9686-4DEA-A809-82DDC4928B52}" ShortID="855980342">
+					<PropertyList>
+						<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{719AD7ED-1F22-4C4D-B203-E13921D9BA73}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="SkateBoard" ID="{B02A30AD-BB52-4741-B0A7-F28FF5E92BA6}" WorkUnitID="{A98F5129-7F0A-400D-9B9E-19374739E25A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{062F0AAB-C50B-453F-B161-5AB6797878E3}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="Board" ID="{F4DED86A-3241-47D8-AE52-39FB7E9115BB}" WorkUnitID="{A98F5129-7F0A-400D-9B9E-19374739E25A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="SkateBoard" ID="{D7F47D31-751B-4F06-BC97-C38B96CAE8F9}" ShortID="434717458">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{719AD7ED-1F22-4C4D-B203-E13921D9BA73}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{062F0AAB-C50B-453F-B161-5AB6797878E3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SkateBoard_Slow" ID="{3E4120AF-6E33-4AAB-A4FA-F0851A884B46}" ShortID="294840175">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{719AD7ED-1F22-4C4D-B203-E13921D9BA73}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{062F0AAB-C50B-453F-B161-5AB6797878E3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rail_Grind_Loop_Fast" ID="{F917EA45-5ADF-4F2A-BF46-0A2100DC2DDA}">
+											<Language>SFX</Language>
+											<AudioFile>Skateboard\Other\Rail_Grind_Loop_Fast.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="802527752"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{C89FAD01-E9F4-4144-ABB2-2CF441D1FE6A}" ShortID="385522499">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Pitch"/>
+														</PropertyList>
+														<ReferenceList/>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+									<ActiveSourceList>
+										<ActiveSource Name="Rail_Grind_Loop_Fast" ID="{F917EA45-5ADF-4F2A-BF46-0A2100DC2DDA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SkateBoard_Fast" ID="{C895F3AC-2BDE-4B32-BE1F-ECEBA52E59D1}" ShortID="1042931897">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{719AD7ED-1F22-4C4D-B203-E13921D9BA73}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{062F0AAB-C50B-453F-B161-5AB6797878E3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rail_Grind_Loop_Slow" ID="{4EE3F37F-1894-46A8-8F8B-D654AEA8F3AE}">
+											<Language>SFX</Language>
+											<AudioFile>Skateboard\Other\Rail_Grind_Loop_Slow.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="739243939"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rail_Grind_Loop_Slow" ID="{4EE3F37F-1894-46A8-8F8B-D654AEA8F3AE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{AE45AAA5-1B69-4607-AE8D-91EB8D975F21}" ShortID="1015190682">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Pitch"/>
+												</PropertyList>
+												<ReferenceList/>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="SnowBoard" ID="{4FF41DE6-1CFF-4051-A0D6-94E4BC891D87}" ShortID="236004734">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{719AD7ED-1F22-4C4D-B203-E13921D9BA73}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{062F0AAB-C50B-453F-B161-5AB6797878E3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SnowBoard_Slow" ID="{7FDC5711-AA3A-4EDC-AC0E-F1570963C65C}" ShortID="470030681">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{719AD7ED-1F22-4C4D-B203-E13921D9BA73}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{062F0AAB-C50B-453F-B161-5AB6797878E3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Snowboard_Snow_Carve_Lp_01" ID="{75A613B5-9AE7-4447-BF38-CF3880CEB39B}">
+											<Language>SFX</Language>
+											<AudioFile>Snowboard\Snowboard_Snow_Carve_Lp_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1060605005"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Snowboard_Snow_Carve_Lp_01" ID="{75A613B5-9AE7-4447-BF38-CF3880CEB39B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SnowBoard_Fast" ID="{93D2BE9A-1053-42FF-B6D9-3EDF46FF88C2}" ShortID="950780113">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{719AD7ED-1F22-4C4D-B203-E13921D9BA73}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{062F0AAB-C50B-453F-B161-5AB6797878E3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Snowboard_Snow_Ride_Lp_01" ID="{2166930A-F298-46D4-A96A-85269DBAA76D}">
+											<Language>SFX</Language>
+											<AudioFile>Snowboard\Snowboard_Snow_Ride_Lp_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="227006601"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Snowboard_Snow_Ride_Lp_01" ID="{2166930A-F298-46D4-A96A-85269DBAA76D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{8EAC3F34-C3C3-498B-812D-401B73ECA3FF}" ShortID="735232195">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Pitch"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Board" ID="{A3E200D0-AD0E-4194-BD47-2C7E22384C98}" WorkUnitID="{64949220-567C-4017-AE76-FA9B371042C6}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{F9C1FC4A-B064-4EBD-B606-3FF732834C05}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-4800</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>4800</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{25D223C0-7C6F-4095-8C5E-7F83C0B7C376}" ShortID="335746076">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Board" ID="{A3E200D0-AD0E-4194-BD47-2C7E22384C98}" WorkUnitID="{64949220-567C-4017-AE76-FA9B371042C6}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{A095FFB3-ABB2-4F2E-AA46-3BA0195EA48B}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>12.83309</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="SkateBoard" ID="{D7F47D31-751B-4F06-BC97-C38B96CAE8F9}"/>
+								<PropertyList>
+									<Property Name="ContinuePlay" Type="bool" Value="True"/>
+								</PropertyList>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="SnowBoard" ID="{4FF41DE6-1CFF-4051-A0D6-94E4BC891D87}"/>
+								<PropertyList>
+									<Property Name="ContinuePlay" Type="bool" Value="True"/>
+								</PropertyList>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="SnowBoard" ID="{1ADBD013-5B4D-4921-A64A-F817863614E0}"/>
+								<ItemList>
+									<ItemRef Name="SnowBoard" ID="{4FF41DE6-1CFF-4051-A0D6-94E4BC891D87}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="SkateBoard" ID="{B02A30AD-BB52-4741-B0A7-F28FF5E92BA6}"/>
+								<ItemList>
+									<ItemRef Name="SkateBoard" ID="{D7F47D31-751B-4F06-BC97-C38B96CAE8F9}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

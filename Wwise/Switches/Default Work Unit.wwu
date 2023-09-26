@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A98F5129-7F0A-400D-9B9E-19374739E25A}" SchemaVersion="110">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{A98F5129-7F0A-400D-9B9E-19374739E25A}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Board" ID="{F4DED86A-3241-47D8-AE52-39FB7E9115BB}">
+					<ChildrenList>
+						<Switch Name="SkateBoard" ID="{B02A30AD-BB52-4741-B0A7-F28FF5E92BA6}"/>
+						<Switch Name="SnowBoard" ID="{1ADBD013-5B4D-4921-A64A-F817863614E0}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

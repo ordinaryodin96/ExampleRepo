@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{22CEB188-ADB9-437E-A97F-019C4F5B517E}" SchemaVersion="110">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{22CEB188-ADB9-437E-A97F-019C4F5B517E}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Board" ID="{49F8BC11-774B-40C1-BC7B-5A19867C0FB1}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Board" ID="{EE8BE8BA-8F1C-4288-83DF-022067C34817}" WorkUnitID="{6FE7F0CC-B89D-4AF2-B2CD-FF758E7F3D3E}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Board" ID="{A3E200D0-AD0E-4194-BD47-2C7E22384C98}"/>
+							<Value>19</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>
